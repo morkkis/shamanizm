@@ -1,0 +1,260 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<style type="text/css">
+	html { overflow-y: scroll}
+	::-moz-selection{ background: #f03; color:#fff; text-shadow: none; }
+    ::selection { background:#f03; color:#fff; text-shadow: none}
+	body{
+	font-family: 'Tangerine', serif;
+	font-size:28px;
+	color:#303;
+	line-height:24px;
+	background-color:#f7f7f7;
+	}
+	a{
+	text-decoration:none;
+	color:#303;
+	}
+	.a:hover, a:active { outline: none; }
+
+	div#ph{	
+		-moz-border-radius:100px;
+		-webkit-border-radius:100px;
+		border-radius:100px;
+		width:200px; 
+		height:200px; 
+		background-color:#303;
+		position:relative;
+		margin: 60px auto 40px;
+		-webkit-transition: all 3s linear;
+		}
+		
+		
+	div#ph:hover{
+		-moz-transform: rotate(45deg);
+		-webkit-transform: rotate(360deg);
+		transform: rotate(45deg);
+		-webkit-transition: all 3s linear;
+
+	}
+
+	
+	
+	div#ph:hover>em.p5{
+	background-color:#f03;
+	}
+	
+	div#ph:target{
+	background-color:#f03;
+	}
+	
+	li{ 
+		display:block;
+		list-style-type:none;
+		width:100px;
+		height:100px;
+		position:absolute;
+		font-weight:bold;
+		font-size:24px;
+		-moz-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+		background-color:#f7f7f7;
+		}
+
+		.i1{
+			left: 50px;
+			top: -30px;
+		-webkit-border-radius: 50px;
+		-webkit-border-bottom-right-radius: 0;
+		-moz-border-radius: 50px;
+		-moz-border-radius-bottomright: 0;
+		border-radius: 50px;
+		border-bottom-right-radius: 0;
+		}
+		.i2{
+			left: -30px;
+			top: 50px;
+			-webkit-border-radius: 50px;
+			-webkit-border-top-right-radius: 0;
+			-moz-border-radius: 50px;
+			-moz-border-radius-topright: 0;
+			border-radius: 50px;
+			border-top-right-radius: 0;
+
+		}
+		.i3{
+			left: 130px;
+			top: 50px;
+			-webkit-border-radius: 50px;
+			-webkit-border-bottom-left-radius: 0;
+			-moz-border-radius: 50px;
+			-moz-border-radius-bottomleft: 0;
+			border-radius: 50px;
+			border-bottom-left-radius: 0;
+		}
+		.i4{
+			left: 50px;
+			top: 130px;
+			-webkit-border-radius: 50px;
+			-webkit-border-top-left-radius: 0;
+			-moz-border-radius: 50px;
+			-moz-border-radius-topleft: 0;
+			border-radius: 50px;
+			border-top-left-radius: 0;
+		}
+		.i5{
+			background-color:#303;
+			left: 50px;
+			top: 50px;
+			-webkit-border-radius: 50px;
+			-moz-border-radius: 50px;
+			border-radius: 50px;
+					-webkit-transition: all 0.5s linear;
+		-moz-transition:  all 0.5s linear;
+		transition: all 0.5s linear;
+		}
+		div#ph:target .i5{background-color:#f03;		-webkit-transition: all 3s linear;
+		-moz-transition:  all 3s linear;
+		transition: all 3s linear;}
+		
+		li:hover.i5{
+			width:100px;
+			height:100px;
+			
+		}
+		.i6{
+			background-color:#f7f7f7;
+			width:60px;
+			height:60px;
+			left: 70px;
+			top: 70px;
+			-webkit-border-radius: 30px;
+			-moz-border-radius: 30px;
+			border-radius: 30px;
+		}
+		li:hover.i6{
+			background-color:#fff;
+			width:70px;
+			height:70px;
+			left: 65px;
+			top: 65px;
+			-webkit-border-radius: 35px;
+			-moz-border-radius: 35px;
+			border-radius: 35px;
+		}
+		
+		a.dot{
+			display:block;
+			position:absolute;
+			width:20px;
+			height:20px;
+			background-color:#303;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+		}
+		a.dot:hover{
+		background-color:#f03;
+		}
+
+		.p1{
+			top:0px;
+			left:0px;
+		}
+		.p2{
+			top:0px;
+			left:180px;
+		}
+		.p3{
+			top:180px;
+			left:180px;
+		}
+		.p4{
+			top:180px;
+			left:0px;
+		}
+		.p5{
+			top:90px;
+			left:90px;
+		}
+p{
+	 margin: -500px auto 0;
+    padding-left: 30px;
+    padding-top: 500px;
+    width: 350px;
+}
+
+
+p#prg:hover>a.wrds{
+color:#f03;
+
+		-webkit-transition: all 0.5s linear;
+		-moz-transition:  all 0.5s linear;
+		transition: all 0.5s linear;
+}
+
+p#prg a.wrds{
+color:#303;
+font-size:24px;
+display:inline;
+-webkit-transition: all 0.5s linear;
+		-moz-transition:  all 0.5s linear;
+		transition: all 0.5s linear;
+}
+p#prg a.gl{cursor:text;}
+
+p#prg:target>a.gl{
+color:#f7f7f7;
+display:none;
+}
+p#prg:target a.wrds{
+color:#f03;
+position:relative;
+text-transform:capitalize;
+font-size:32px;
+cursor:text;
+-webkit-transition: all 0.5s linear;
+-moz-transition: all 0.5s linear;
+transition: all 0.5s linear;
+font-family: Georgia, serif;
+display:block;
+line-height:30px;
+padding-left:100px;
+}	
+p#prg a.wrds{
+cursor:text;
+-webkit-transition: all 0.5s linear;
+-moz-transition: all 0.5s linear;
+transition: all 0.5s linear;
+}	
+
+	</style>
+</head>
+<body>
+	<div id="ph">
+<ul>
+	<li class="i1"></li>
+	<li class="i2"></li>
+	<li class="i3"></li>
+	<li class="i4"></li>
+	<li class="i5"></li>
+	<li class="i6"></li>
+</ul>
+<a href="#ph" class="dot p1"> </a>
+<a href="#ph" class="dot p2"> </a>
+<a href="#ph" class="dot p3"> </a>
+<a href="#ph" class="dot p4"> </a>
+<a href="#ph" class="dot p5">
+</a>
+	</div>
+<p id="prg"><a href="#prg" class="gl">
+	But I must explain to you how all this mistaken idea of denouncing pleasure and praising </a><a class="wrds" id="w1" href="#unprg">pain</a> <a href="#prg" class="gl">was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human</a> <a class="wrds" id="w2" href="#unprg">happiness</a><a href="#prg" class="gl">. No one rejects, dislikes, or avoids</a> <a class="wrds" id="w3" href="#unprg">pleasure</a> <a href="#prg" class="gl">itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+	</a>
+</p>
+	</body>
+</html>
